@@ -7,3 +7,7 @@ FN = [7, 12, 11, 8]
 
 precision = np.mean([TP[i] / (TP[i] + FP[i]) for i in range(len(TP))])
 recall = np.mean([TP[i] / (TP[i] + FN[i]) for i in range(len(TP))])
+
+print(precision)
+print(recall)
+
